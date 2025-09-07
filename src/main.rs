@@ -1,3 +1,5 @@
+mod rust_second_tutor;
+
 mod ownership_sample;
 mod borrowing_sample;
 mod slices_sample;
@@ -6,7 +8,11 @@ mod module_sample;
 mod other_sample;
 
 fn main(){
-  // ownership
+  // Second Tutor
+  rust_second_tutor::guessing_game::guessing_game();
+
+
+  // // ownership
   // ownership_sample::fn1();
   // ownership_sample::fn2();
 
@@ -30,4 +36,5 @@ fn main(){
 
   // // others
   // other_sample::others();
+
 }
