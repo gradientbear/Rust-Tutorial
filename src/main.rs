@@ -1,3 +1,5 @@
+use crate::rust_second_tutor::structs_data::struct_main;
+
 mod rust_second_tutor;
 
 mod ownership_sample;
@@ -8,8 +10,14 @@ mod module_sample;
 mod other_sample;
 
 fn main(){
+  // structs_data
+  struct_main();
+
+  // let mut s = String::from("hello");
+  // println!("len = {}, cap = {}", s.len(), s.capacity());
+
   // Second Tutor
-  rust_second_tutor::guessing_game::guessing_game();
+  // rust_second_tutor::guessing_game::guessing_game();
 
 
   // // ownership
